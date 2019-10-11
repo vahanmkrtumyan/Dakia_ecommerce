@@ -1,0 +1,60 @@
+.html {
+  height: 100%;
+  margin: 0;
+}
+.body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica,
+    sans-serif;
+}
+.nv {
+  display: flex;
+  display: -webkit-flex; /* Safari */
+  -webkit-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+nav {
+  text-align: center;
+  background-color: #25274d;
+  position: sticky;
+  top: 0;
+}
+.navbar {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.cart {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: flex;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  display: inline-block;
+  padding: 16px 25px;
+}
+li:hover a {
+  color: #c1c2c3;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    margin: 0;
+  }
+}
