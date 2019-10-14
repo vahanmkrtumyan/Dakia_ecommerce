@@ -1,13 +1,20 @@
 .side-drawer {
-  height: 30%;
+  height: 100%;
   position: absolute;
   background-color: white;
   box-shadow: 2px 2px 5px 5px rgba($color: #000000, $alpha: 0.5);
-  top: 47px;
+  top: 63px;
   right: 0;
-  width: 100%;
+  width: 70%;
+  max-width: 400px;
   z-index: 120;
   margin: 0;
+  transform: translateX(0%);
+  transition: 0.3s ease-out;
+}
+
+.side-drawer.open {
+  transform: translateX(100%);
 }
 
 .side-drawer ul {
@@ -18,6 +25,7 @@
   justify-content: center;
   margin: 0;
   height: 100%;
+  padding-top: 30px;
 }
 
 .side-drawer li {
@@ -33,4 +41,7 @@
 .side-drawer a:hover,
 .side-drawer a:hover {
   color: #fa923f;
+}
+
+@media (max-width: 768px) {
 }

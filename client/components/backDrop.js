@@ -1,5 +1,5 @@
-import React from "react";
-import "../assets/styles/backDrop.scss";
+import React from 'react';
+import '../assets/styles/backDrop.scss';
 
 const BackDrop = ({ show, onOpen }) => {
   return show ? (

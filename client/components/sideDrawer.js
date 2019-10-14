@@ -1,11 +1,11 @@
-import React from "react";
-import Link from "next/link";
-import "../assets/styles/sideDrawer.scss";
+import React from 'react';
+import Link from 'next/link';
+import '../assets/styles/sideDrawer.scss';
 
 const SideDrawer = props => {
-  let classname = props.show ? "side-drawer" : "side-drawer open";
+  let classname = props.show ? 'side-drawer' : 'side-drawer open';
 
-  return props.show ? (
+  return (
     <div className={classname}>
       <ul>
         <li className="link">
@@ -40,7 +40,7 @@ const SideDrawer = props => {
         </li>
       </ul>
     </div>
-  ) : null;
+  );
 };
 
 export default SideDrawer;
