@@ -48,6 +48,7 @@ const Nav = ({ onOpen, open }) => {
       <style jsx>{`
         :global(html) {
           height: 100%;
+          overflow-x: hidden;
         }
         :global(body) {
           margin: 0;

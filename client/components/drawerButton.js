@@ -52,7 +52,7 @@ const DrawerButton = ({ onOpen, open }) => {
     //   <div className="toggle-button_line"></div>
     // </div>
 
-    <div style={styles.container} onClick={() => onOpen()}>
+    <div className="toggle-button" onClick={() => onOpen()}>
       <div style={{ ...styles.line, ...styles.lineTop }} />
       <div style={{ ...styles.line, ...styles.lineMiddle }} />
       <div style={{ ...styles.line, ...styles.lineBottom }} />
