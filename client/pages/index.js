@@ -1,7 +1,8 @@
-import React from "react";
-import Head from "next/head";
-import "../assets/styles/homepage.scss";
-import Layout from "../components/layout";
+import React from 'react';
+import Head from 'next/head';
+import '../assets/styles/homepage.scss';
+import Layout from '../components/layout';
+import CarouselComp from '../components/carousel';
 
 const Home = () => (
   <div>
@@ -10,37 +11,40 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Layout>
-      <div className="homepage">
-        <h1>Բարի գալուստ</h1>
-        <div className="directory-menu">
-          <div className="menu-item">
-            <div className="content">
-              <div className="title">Էլեկտրաէներգիա</div>
-              <span className="subtitle">Գնել</span>
+      <div>
+        <CarouselComp />
+        <div className="homepage">
+          <h1>Բարի գալուստ Դակիա</h1>
+          <div className="directory-menu">
+            <div className="menu-item">
+              <div className="content">
+                <div className="title">Էլեկտրաէներգիա</div>
+                <span className="subtitle">Գնել</span>
+              </div>
             </div>
-          </div>
-          <div className="menu-item">
-            <div className="content">
-              <div className="title">Բարձավոլտ</div>
-              <span className="subtitle">Գնել</span>
+            <div className="menu-item">
+              <div className="content">
+                <div className="title">Բարձրավոլտ</div>
+                <span className="subtitle">Գնել</span>
+              </div>
             </div>
-          </div>
-          <div className="menu-item">
-            <div className="content">
-              <div className="title">Արդյունաբերական</div>
-              <span className="subtitle">Գնել</span>
+            <div className="menu-item">
+              <div className="content">
+                <div className="title">Արդյունաբերական</div>
+                <span className="subtitle">Գնել</span>
+              </div>
             </div>
-          </div>
-          <div className="menu-item">
-            <div className="content">
-              <div className="title">Հեռահաղորդակցություն</div>
-              <span className="subtitle">Գնել</span>
+            <div className="menu-item">
+              <div className="content">
+                <div className="title">Հեռահաղորդակցություն</div>
+                <span className="subtitle">Գնել</span>
+              </div>
             </div>
-          </div>
-          <div className="menu-item">
-            <div className="content">
-              <div className="title">Տնային տնտեսություն</div>
-              <span className="subtitle">Գնել</span>
+            <div className="menu-item">
+              <div className="content">
+                <div className="title">Տնային տնտեսություն</div>
+                <span className="subtitle">Գնել</span>
+              </div>
             </div>
           </div>
         </div>
